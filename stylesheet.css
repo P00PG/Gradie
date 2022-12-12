@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url(Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: RobotoReg;
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
+span{
+    color: #013243;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.wrapper{
+    margin: auto;
+    max-width: 1438px;
+    
+}
+
+
+body{
+    background-image: url(Background.png);
+    background-repeat: no-repeat center fixed;     
+    background-size: cover;
+    font-family: Roboto;
+
+}
+
+
+.smallbody{
+    background: linear-gradient(
+        to right,
+        #013243 0%,
+        #013243 50%,
+        white 50%,
+        white 100%
+    );
+    width: 862px;
+    height: 552px;
+    border-radius: 10px;
+    border: 1px solid #BCBCBC;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.leftbody{
+
+    float: left;
+    width: 50%;
+    height: 552px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 45px;
+    line-height: 10px;
+
+}
+
+.leftbody h2{
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.leftbody p{
+    color: #86BFD3;
+    font-family: RobotoThin;
+}
+
+.leftbody img{
+    position: absolute;
+    left: 19px;
+    top: 53px;
+    width: 400px;
+}
+
+
+.rightbody{
+    width: 50%;
+    height: 552px;
+    float: right;
+}
+
+form{
+    padding: 40px 63px 46px 62px;
+    line-height: 24px;
+    font-size: 18px;
+    
+}
+
+
+input{
+    width: 294px;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 16px;
+    line-height: 24px;
+    margin: 5px 0px 24px 0px;
+    font-size: 18px;
+    border: 2px solid #DADADA;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    margin-top: 50px;
+    color: white;
+    background-color: #013243;
+    border-color: white;
+}
+
+.checkoption{
+    width: 263px;
+    height: 81px;
+    word-wrap: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    position: absolute;
+    left: 530px;
+    top: 360px;
+    font-family: Inter;
+}
